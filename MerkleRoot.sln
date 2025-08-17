@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerkleRoot", "MerkleRoot\Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMerkleRoot", "TestMerkleRoot\TestMerkleRoot.csproj", "{F30317E8-317E-4C03-8D97-A9D0D55CBAE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfReserveWebAPI", "ProofOfReserveWebAPI\ProofOfReserveWebAPI.csproj", "{13E51252-6579-484D-ADA6-6D960D27476C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F30317E8-317E-4C03-8D97-A9D0D55CBAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F30317E8-317E-4C03-8D97-A9D0D55CBAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F30317E8-317E-4C03-8D97-A9D0D55CBAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E51252-6579-484D-ADA6-6D960D27476C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E51252-6579-484D-ADA6-6D960D27476C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E51252-6579-484D-ADA6-6D960D27476C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E51252-6579-484D-ADA6-6D960D27476C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -38,7 +38,7 @@ public class MerkleRootClass
         }
     }
 
-    public static string ComputeMerkleRoot(IList<string> leaves, byte[] hashedTag)
+    public static string ComputeMerkleRoot(IList<string> leaves, byte[] leafTag, byte[] branchTag, bool isFirstCall = true)
     {
         if (!leaves.Any())
         {
@@ -59,9 +59,16 @@ public class MerkleRootClass
         for (int i = 0; i < leaves.Count(); i += 2)
         {
             var leavesPair = string.Concat(leaves[i], leaves[i + 1]);
-            branches.Add(GetCompleteTaggedHash(leavesPair, hashedTag));
+            if (isFirstCall)
+            {
+                branches.Add(GetCompleteTaggedHash(leavesPair, leafTag));
+            }
+            else
+            {
+                branches.Add(GetCompleteTaggedHash(leavesPair, branchTag));
+            }
         }
 
-        return ComputeMerkleRoot(branches, hashedTag);
+        return ComputeMerkleRoot(branches, leafTag, branchTag, false);
     }
 }
