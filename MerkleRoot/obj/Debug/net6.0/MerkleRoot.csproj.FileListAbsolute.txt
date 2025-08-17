@@ -1,0 +1,12 @@
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/bin/Debug/net6.0/MerkleRoot.deps.json
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/bin/Debug/net6.0/MerkleRoot.dll
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/bin/Debug/net6.0/ref/MerkleRoot.dll
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/bin/Debug/net6.0/MerkleRoot.pdb
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/obj/Debug/net6.0/MerkleRoot.csproj.AssemblyReference.cache
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/obj/Debug/net6.0/MerkleRoot.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/obj/Debug/net6.0/MerkleRoot.AssemblyInfoInputs.cache
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/obj/Debug/net6.0/MerkleRoot.AssemblyInfo.cs
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/obj/Debug/net6.0/MerkleRoot.csproj.CoreCompileInputs.cache
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/obj/Debug/net6.0/MerkleRoot.dll
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/obj/Debug/net6.0/ref/MerkleRoot.dll
+/Users/asthajada/astha/MerkleRoot/MerkleRoot/obj/Debug/net6.0/MerkleRoot.pdb
