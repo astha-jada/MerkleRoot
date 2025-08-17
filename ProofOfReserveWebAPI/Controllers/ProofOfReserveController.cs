@@ -30,4 +30,10 @@ public class ProofOfReserveController : ControllerBase
 
         return rootHash;
     }
+    
+    [HttpGet("getmerkleproof/{userid}")]
+    public string GetMerkleProof(int userid)
+    {
+        return $"To implement merkle proof for User {userid.ToString()}";
+    }
 }
